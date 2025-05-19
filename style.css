@@ -1,0 +1,42 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+/* class (variable) */
+.font-h1 {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 800;
+   font-size: 76px;
+}
+
+/* body */
+
+.container-fluid {
+   background-color: #191919;
+   width: 70%;
+}
+
+body {
+   background-color: #191919;
+}
+
+.en-avant {
+   width: 70%;
+}
+
+.main__articles {
+   width: 60%;
+}
+
+.japon {
+   width: 50%;
+}
+
+.h2 {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-size: 54px;
+}
