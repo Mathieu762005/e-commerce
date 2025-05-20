@@ -40,3 +40,35 @@ body {
    font-weight: 500;
    font-size: 54px;
 }
+
+.card-title {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+}
+
+.card__bottom {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+}
+
+@media (max-width: 700px) {
+   .font-h1 {
+      font-size: 27px;
+   }
+
+   .container-fluid {
+      background-color: #191919;
+      width: 100%;
+   }
+
+   .h2 {
+    font-size: 28px;
+    margin: 0px;
+   }
+
+   .main__articles {
+    width: 90%;
+   }
+}
