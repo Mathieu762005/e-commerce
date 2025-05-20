@@ -22,6 +22,11 @@ body {
    background-color: #191919;
 }
 
+header {
+    background-color: #191919;
+    width: 100%;
+}
+
 .en-avant {
    width: 70%;
 }
@@ -70,5 +75,9 @@ body {
 
    .main__articles {
     width: 90%;
+   }
+
+   ..navbar-collapse {
+    display: none;
    }
 }
