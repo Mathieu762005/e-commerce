@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Coqsy Officiel</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+   <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+   <link rel="icon" href="img/icone.png" />
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg fs-4">
+      <div class="container-fluid mx-auto">
+         <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 9rem" alt="logo" /></a>
+         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="border border-light navbar-toggler-icon bs-primary-white"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                     Catégories
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Coques</a></li>
+                     <li>
+                        <a class="dropdown-item" href="#">Verres de protection</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="#">Support de voiture</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-light" href="contact.html">Contact</a>
+               </li>
+            </ul>
+            <div class="navbar__panier d-fex border py-1 px-4 rounded-5 justify-content-start" style="width: 30%;">
+               <a class="nav-link text-light" data-bs-toggle="offcanvas" aria-controls="offcanvasExample"
+                  href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Panier <i
+                     class="bi bi-cart-fill text-light fs-4"></i><span class="fs-5">+1</span></a>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Votre panier
+         </h5>
+         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+      </div>
+      <hr />
+      <div class="offcanvas-body">
+         <div class="offcanvas-body-grey text-center mx-5 rounded-top-3">
+            <img src="img/MIAOU-Photoroom.png" width="100" alt="" class="logo-miaou px-5" />
+            <img src="img/coque6.png" width="300" alt="" />
+         </div>
+         <div class="offcanvas-body-grey mx-5 text-black p-3 mb-2 rounded-bottom-3">
+            <h5>Le Miaou Sauvage</h5>
+            <p class="fst-italic">$ 1.000.000 USD</p>
+            <a class="text-black" href="">Remove</a>
+         </div>
+         <hr class="mx- my-4" />
+         <div class="d-flex justify-content-between">
+            <p>Subtotal</p>
+            <span>$ 1.000.000 USD</span>
+         </div>
+         <div class="mx rounded-bottom-3 text-center mb-3">
+            <button type="button" class="btn btn-warning fw-bold px-5 rounded-0">
+               Achete ou je te DDOS
+            </button>
+         </div>
+         <div class="hack text-center">
+            <img class="p-2 rounded-5" width="350" src="img/hack-the-planet-hacker-cat.gif" alt="" />
+         </div>
+      </div>
+   </div>
+   <main class="main">
+      <section class="main__banniere">
+         <img src="img/banniere.jpg" class="img-fluid mb-5" alt="banniere" />
+      </section>
+      <section class="en-avant mx-auto text-center">
+         <div class="title">
+            <h1 class="font-h1 my-lg-5 my-md-2 text-white">
+               Profitez de nos meilleurs collaborations
+            </h1>
+         </div>
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded-5">
+               <div class="carousel-item active">
+                  <img src="img/carrousel1.jpg" class="d-block w-100 rounded-5 my-5" alt="carrousel 1" />
+               </div>
+               <div class="carousel-item">
+                  <img src="img/carrousel2.jpg" class="d-block w-100 rounded-5 my-5" alt="carrousel 2" />
+               </div>
+               <div class="carousel-item">
+                  <img src="img/carrousel3.jpg" class="d-block w-100 rounded-5 my-5" alt="carrousel 3" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <h2 class="h2 text-white text-center py-lg-5 py-md-2">
+         Nos exclusivités sur les iphones 16
+      </h2>
+      <section class="main__articles mx-auto p-5 rounded-5 my-3">
+         <div class="background-japon m-top-5">
+            <img src="img/bg-titre-2.jpg" class="img-fluid rounded-5 mt-5 mb-4" alt="banniere" />
+         </div>
+         <div class="card-group">
+            <div class="card-group">
+               <div class="card card-2 m-5 rounded-3">
+                  <img class="japon mx-auto pt-2" src="img/Assassin's_Creed_Valhalla.svg" alt="" />
+                  <img src="img/coque2.png" class="card-img-top" alt="..." />
+                  <div class="card-body pt-0">
+                     <p class="card-text text-center">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        Avies
+                     </p>
+                     <h5 class="card-title">Valhalla - Viking Pattern</h5>
+                     <p class="card-text">
+                        This card has supporting text below as a natural
+                        lead-in to additional content.
+                     </p>
+                  </div>
+                  <div class="card__bottom p-3 d-flex justify-content-between align-items-center">
+                     <span class="card__prix fw-bold fs-5">50.34 $</span>
+                     <a href="article.html">
+                        <button class="card__button bg-warning fw-bold px-3 py-2 rounded-5 border-0">
+                           Ajouter au panier
+                        </button>
+                     </a>
+                  </div>
+               </div>
+               <div class="card card-3 m-5 rounded-3">
+                  <img class="japon mx-auto pt-2" src="img/One_Piece.png" alt="" />
+                  <img src="img/coque3.png" class="card-img-top" alt="..." />
+                  <div class="card-body pt-0">
+                     <p class="card-text text-center">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        Avies
+                     </p>
+                     <h5 class="card-title">
+                        Japanese Style Thousand Sunny
+                     </h5>
+                     <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                     </p>
+                  </div>
+                  <div class="card__bottom p-3 d-flex justify-content-between align-items-center">
+                     <span class="card__prix fw-bold fs-5">50.34 $</span>
+                     <a href="article.html">
+                        <button class="card__button bg-warning fw-bold px-3 py-2 rounded-5 border-0">
+                           Ajouter au panier
+                        </button>
+                     </a>
+                  </div>
+               </div>
+               <div class="card card-6 m-5 rounded-3">
+                  <img class="japon mx-auto" src="img/MIAOU.png" alt="" />
+                  <img src="img/coque6.png" class="card-img-top" alt="..." />
+                  <div class="card-body pt-0">
+                     <p class="card-text text-center">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        Avies
+                     </p>
+                     <h5 class="card-title">Le Miaou Sauvage</h5>
+                     <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                     </p>
+                  </div>
+                  <div class="card__bottom p-3 d-flex justify-content-between align-items-center">
+                     <span class="card__prix fw-bold fs-5">50.34 $</span>
+                     <a href="#">
+                        <button class="card__button bg-warning fw-bold px-3 py-2 rounded-5 border-0">
+                           Ajouter au panier
+                        </button>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="background-japon">
+               <img src="img/bg-titre japon.png" class="img-fluid rounded-5 mb-4" alt="banniere" />
+            </div>
+            <div class="card-group pb-2">
+               <div class="card card-4 m-5 rounded-3">
+                  <img class="japon mx-auto" src="img/effet-texte-3d-japon_625692-164.png" alt="" />
+                  <img src="img/coque4.png" class="card-img-top" alt="..." />
+                  <div class="card-body pt-0">
+                     <p class="card-text text-center">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        Avies
+                     </p>
+                     <h5 class="card-title">Japan at Night</h5>
+                     <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                     </p>
+                  </div>
+                  <div class="card__bottom p-3 d-flex justify-content-between align-items-center">
+                     <span class="card__prix fw-bold fs-5">50.34 $</span>
+                     <a href="article.html">
+                        <button class="card__button bg-warning fw-bold px-3 py-2 rounded-5 border-0">
+                           Ajouter au panier
+                        </button>
+                     </a>
+                  </div>
+               </div>
+               <div class="card card-5 m-5 rounded-3">
+                  <img class="japon mx-auto" src="img/effet-texte-3d-japon_625692-164.png" alt="" />
+                  <img src="img/coque5.png" class="card-img-top" alt="..." />
+                  <div class="card-body pt-0">
+                     <p class="card-text text-center">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        Avies
+                     </p>
+                     <h5 class="card-title">Akira</h5>
+                     <p class="card-text">
+                        This card has supporting text below as a natural lead-in
+                        to additional content.
+                     </p>
+                  </div>
+                  <div class="card__bottom p-3 d-flex justify-content-between align-items-center">
+                     <span class="card__prix fw-bold fs-5">50.34 $</span>
+                     <a href="article.html">
+                        <button class="card__button bg-warning fw-bold px-3 py-2 rounded-5 border-0">
+                           Ajouter au panier
+                        </button>
+                     </a>
+                  </div>
+               </div>
+               <div class="card card-1 m-5 rounded-3">
+                  <img class="japon mx-auto" src="img/effet-texte-3d-japon_625692-164.png" alt="" />
+                  <img src="img/coque1.png" class="card-img-top" alt="..." />
+                  <div class="card-body pt-0">
+                     <p class="card-text text-center">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        Avies
+                     </p>
+                     <h5 class="card-title">Mont Fuji de Koshigaya</h5>
+                     <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                     </p>
+                  </div>
+                  <div class="card__bottom p-3 d-flex justify-content-between align-items-center">
+                     <span class="card__prix fw-bold fs-5">50.34 $</span>
+                     <a href="article.html">
+                        <button class="card__button bg-warning fw-bold px-3 py-2 rounded-5 border-0">
+                           Ajouter au panier
+                        </button>
+                     </a>
+                  </div>
+               </div>
+            </div>
+      </section>
+      <h3 class="h3-japon text-center text-white pt-5">
+         <p class="m-0">collection Japon</p>
+      </h3>
+      <section class="expo mx-auto d-flex py-5">
+         <div class="mx-3">
+            <div class="text-japon p-3 rounded-4 mt-4">
+               <h4 class="text-white fw-bold">Lorem ipsum dolor</h4>
+               <p class="text-white">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tempora, dolores! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Illum, nulla.
+               </p>
+            </div>
+            <img src="img/japon1.png" alt="image japon 1"
+               class="image image-1 d-flex align-items-start my-4 rounded-4 align-items-end" />
+         </div>
+         <div class="mx-3">
+            <img src="img/japon2.png" alt="image japon 2"
+               class="image image-2 d-flex align-items-end my-4 rounded-4 align-items-start" />
+            <div class="text-japon p-3 rounded-4 mb-4">
+               <h4 class="text-white fw-bold">Lorem ipsum dolor</h4>
+               <p class="text-white">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tempora, dolores! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Illum, nulla.
+               </p>
+            </div>
+         </div>
+         <div class="mx-3">
+            <div class="text-japon p-3 rounded-4 mt-4">
+               <h4 class="text-white fw-bold">Lorem ipsum dolor</h4>
+               <p class="text-white">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tempora, dolores! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Illum, nulla.
+               </p>
+            </div>
+            <img src="img/japon3.png" alt="image japon 3"
+               class="image image-3 d-flex align-items-start my-4 rounded-4 align-items-end" />
+         </div>
+      </section>
+   </main>
+
+   <div class="hstack gap-5 p-5 text-bg-dark mt-auto justify-content-center">
+      <div class="p-1">
+         <b>Coqsy</b>
+      </div>
+      <div class="vr"></div>
+      <div class="p-2">
+         <p>Adresse : 3 Rue Maximilien Robespierre, 76610 Le Havre <br>
+            Téléphone : 06.18.56.67.26
+         </p>
+      </div>
+      <div class="vr"></div>
+      <div class="p-1"><a href="#" class="text-bg-dark">Mentions légales · © 2025 Coqsy</a></div>
+      <div class="vr"></div>
+      <div class="p-1">
+         <a href="#" class="text-bg-dark"><i class="bi bi-instagram"></i></a>
+         <a href="#" class="text-bg-dark"><i class="bi bi-twitter-x"></i></a>
+         <a href="#" class="text-bg-dark"><i class="bi bi-pinterest"></i></i></a>
+         <a href="#" class="text-bg-dark"><i class="bi bi-facebook"></i></a>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

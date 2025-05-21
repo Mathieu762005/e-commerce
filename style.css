@@ -1,0 +1,137 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   font-family: "Inter Tight", sans-serif;
+}
+
+/* class (variable) */
+.font-h1 {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 800;
+   font-size: 76px;
+}
+
+/* body */
+
+.container-fluid {
+   background-color: #191919;
+   width: 70%;
+}
+
+body {
+   background-color: #191919;
+}
+
+.main {
+   background: radial-gradient(circle,rgba(160, 57, 179, 1) 10%, rgba(93, 64, 155, 1) 30%, rgba(25, 25, 25, 1) 40%);
+}
+
+.en-avant {
+   width: 70%;
+}
+
+.hakc img {
+   width: 50%;
+}
+
+.main__articles {
+   width: 70%;
+   background-color: #252525;
+}
+
+.japon {
+   width: 50%;
+}
+
+.h2 {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-size: 54px;
+}
+
+.card-title {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+}
+
+.card__bottom {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+}
+
+.expo {
+   width: 70%;
+   background: radial-gradient(circle,rgba(218, 210, 187, 1) 0%, rgba(25, 25, 25, 1) 50%);
+}
+
+.expo img {
+   width: 100%;
+}
+
+.text-japon {
+   background-color: #252525;
+}
+
+
+h3 img {
+   width: 20rem;
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-size: 50px;
+}
+
+h3 p {
+   font-family: "Inter Tight", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-size: 54px;
+}
+
+.offcanvas {
+   background-color: #252525;
+}
+
+.offcanvas-body-grey {
+   background-color: #ffffff;
+}
+
+.offcanvas-body-grey img {
+   width: 100%;
+}
+.background-japon {
+   width: 100%;
+}
+.background-japon img {
+   background-image: url(img/bg-titre-japon.jpg);
+   background-size: cover;
+   width: 100%;
+}
+
+@media (max-width: 700px) {
+   .font-h1 {
+      font-size: 27px;
+   }
+
+   .container-fluid {
+      background-color: #191919;
+      width: 100%;
+   }
+
+   .h2 {
+      font-size: 28px;
+      margin: 0px;
+   }
+
+   .main__articles {
+      width: 90%;
+   }
+
+.navbar__panier .nav-link {
+   margin-left: 500px
+}
+}
