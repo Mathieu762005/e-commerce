@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
-<body class="d-flex flex-column" style="height: 10">
+<body class="d-flex flex-column bg-black" style="height: 100vh">
     <nav class="navbar navbar-expand-lg bg-black flex-lg-row gap-5">
         <div class="container-fluid bg-black">
             <a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 7rem;" alt="logo"></a>
@@ -61,41 +61,73 @@
             </div>
         </div>
     </div>
-    <div class="article">
-    <div class="article1_grid">
-        <div class="coque1">
-            <img src="img/coque1.png" alt="coque1">
-            <div class="flex_coque1">
+    <div class="article justify-content-center">
+    <div class="container-lg  m-0-auto p-2 text-center">
+        <div class="row">
+        <div class=" col-lg coque1 d-flex flex-column bg-light gap-1">
+            <div>
+                <img src="img/coque1.png" alt="coque1">
+            </div>
+            <div class="d-flex gap-2">
                 <div class="img_coque1">
-                    <img src="img/coque1.png" alt="coque1">
+                    <a href="#"><img class="img-fluid" src="img/coque1.png" alt="coque1"></a>
                 </div>
                 <div class="img_coque1">
-                    <img src="img/coque1.png" alt="coque1">
+                    <a href="#"><img  class="img-fluid" src="img/coque1.png" alt="coque1"></a>
                 </div>
                 <div class="img_coque1">
-                    <img src="img/coque1.png" alt="coque1">
+                    <a href="#"><img class="img-fluid" src="img/coque1.png" alt="coque1"></a>
                 </div>
             </div>
         </div>
-        <div class="prix">
-            <h1 class="display-4">Article</h1>
+        <div class=" col-lg p-5 bg-dark text-light text-start">
+            <h1 class="display-4">Coque de téléphone</h1>
+            <hr>
             <p>
                 <br><br>Marre des coques moches ? On te comprend. Cette coque stylée protège ton téléphone avec classe. Anti-choc, anti-rayure, pro-style. <br><br>
-                Parce que votre téléphone mérite mieux qu’une chute malheureuse ✨
+                Parce que votre téléphone mérite mieux qu’une chute malheureuse ✨ <br> <br>
             </p>
-        <div class="input-group mb-3">
+            <hr>
+        <div class="input-group mb-4 mt-4" style="width: 100%;">
             <select class="form-select" id="inputGroupSelect02">
-                <option selected>Marque</option>
                 <option value="1">Iphone</option>
                 <option value="2">Samsung</option>
                 <option value="3">Xiomi</option>
             </select>
-        <label class="input-group-text" for="inputGroupSelect02">Options</label>
+        <label class="input-group-text" for="inputGroupSelect02">Marques</label>
+        (qté)
         </div>
+        <!-- Surement à lier avec le panier directement le modal n'est pas nécessaire -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Prixpanier">
+        Ajouter au Panier
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Prixpanier" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Panier</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Votre article à bien été ajouter au panier !
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Accepter</button>
+                <button type="button" class="btn btn-dark">ou Accepter (it's too late)</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        </div>
+
         </div>
     </div>
     </div>
-    <div class="hstack gap-5 p-5 text-bg-dark mt-auto justify-content-center">
+    <div class="hstack gap-1 p-5 text-bg-dark mt-auto justify-content-center" style="width: 100vw;">
         <div class="p-1">
             <b>Coqsy</b>
         </div>
