@@ -1,6 +1,7 @@
 * {
    padding: 0px;
    margin: 0px;
+   font-family: "Inter Tight", sans-serif;
 }
 
 /* class (variable) */
@@ -59,15 +60,17 @@ header {
 }
 
 .expo {
-   width: 100%;
-   height: 35rem;
-   background-image: url(img/bg-expo.jpg);
+   width: 70%;
 }
 
 .expo img {
-   width: 27rem;
-   height: auto;
+   width: 100%;
 }
+
+.text-japon {
+   background-color: #252525;
+}
+
 
 h3 img {
    width: 20rem;
@@ -81,7 +84,19 @@ h3 p {
    font-family: "Inter Tight", sans-serif;
    font-optical-sizing: auto;
    font-weight: 600;
-   font-size: 50px;
+   font-size: 54px;
+}
+
+.offcanvas {
+   background-color: #252525;
+}
+
+.offcanvas-body-grey {
+   background-color: #ffffff;
+}
+
+.offcanvas-body-grey img {
+   width: 100%;
 }
 
 @media (max-width: 700px) {
@@ -103,7 +118,7 @@ h3 p {
       width: 90%;
    }
 
-   ..navbar-collapse {
+   .navbar-collapse {
       display: none;
    }
 }

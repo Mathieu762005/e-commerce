@@ -25,7 +25,7 @@
    </head>
    <body>
       <nav class="navbar navbar-expand-lg flex-lg-row fs-4">
-         <div class="container-fluid mx-auto ">
+         <div class="container-fluid mx-auto">
             <a class="navbar-brand" href="#"
                ><img src="img/logo.png" style="width: 9rem" alt="logo"
             /></a>
@@ -81,7 +81,9 @@
                      <a class="nav-link text-light" href="#">Contact</a>
                   </li>
                </ul>
-               <div class="navbar__panier d-fex align-items-center border py-1 px-4 rounded-5">
+               <div
+                  class="navbar__panier d-fex align-items-center border py-1 px-4 rounded-5"
+               >
                   <a
                      class="nav-link text-light"
                      data-bs-toggle="offcanvas"
@@ -96,24 +98,32 @@
          </div>
       </nav>
       <div
-         class="offcanvas offcanvas-start"
+         class="offcanvas offcanvas-start text-white"
          tabindex="-1"
          id="offcanvasExample"
          aria-labelledby="offcanvasExampleLabel"
       >
          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Panier</h5>
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Votre panier</h5>
             <button
                type="button"
-               class="btn-close"
+               class="btn-close btn-close-white"
                data-bs-dismiss="offcanvas"
                aria-label="Close"
             ></button>
          </div>
          <div class="offcanvas-body">
-            <div>
+            <div class="offcanvas-body-grey text-center mx-5 rounded-top-3">
+               <img src="img/MIAOU-Photoroom.png" width="100" alt="" class="logo-miaou px-5">
+               <img src="img/coque6.png" width="300" alt="">
+            </div>
+            <div class="offcanvas-body-grey mx-5 text-black p-3">
+               <h5>Le Miaou Sauvage</h5>
                Some text as placeholder. In real life you can have the elements
                you have chosen. Like, text, images, lists, etc.
+            </div>
+            <div class="bg-white mx-5 rounded-bottom-3 text-end p-2">
+               <button type="button" class="btn btn-warning fw-bold">Achete ou je te DDOS </button>
             </div>
             <div class="dropdown mt-3">
                <button
@@ -178,7 +188,7 @@
             </div>
          </section>
          <section class="main__articles mx-auto">
-            <h2 class="h2 text-white text-center py-lg-5  py-md-2">
+            <h2 class="h2 text-white text-center py-lg-5 py-md-2">
                nos exclusivités sur les iphones 16
             </h2>
             <div class="card-group">
@@ -398,15 +408,55 @@
                </div>
             </div>
          </section>
-         <h3 class="text-center text-white">
+         <h3 class="h3-japon text-center text-white pb-3">
             <p>collection Japon</p>
-            <img src="img/titre-japon.png" alt="">
          </h3>
-         <section class="expo d-flex justify-content-around">
-               <img src="img/japon1.png" alt="image japon 1" class="image image-1 d-flex align-items-start my-4 align-self-start rounded-">
-               <img src="img/japon2.png" alt="image japon 2" class="image image-2 d-flex align-items-end my-4 align-self-end rounded-">
-               <img src="img/japon3.png" alt="image japon 3" class="image image-3 d-flex align-items-start my-4 align-self-start rounded-">
-               <img src="img/japon4.png" alt="image japon 4" class="image image-4 d-flex align-items-end my-4 align-self-end rounded-">
+         <section class="expo mx-auto d-flex">
+            <div class="mx-3">
+               <div class="text-japon border p-3 rounded-4 mt-4">
+                  <h4 class="text-white fw-bold">Lorem ipsum dolor</h4>
+                  <p class="text-white">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Tempora, dolores! Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Illum, nulla.
+                  </p>
+               </div>
+               <img
+                  src="img/japon1.png"
+                  alt="image japon 1"
+                  class="image image-1 d-flex align-items-start my-4 rounded-4 align-items-end"
+               />
+            </div>
+            <div class="mx-3">
+               <img
+                  src="img/japon2.png"
+                  alt="image japon 2"
+                  class="image image-2 d-flex align-items-end my-4 rounded-4 align-items-start"
+               />
+               <div class="text-japon border p-3 rounded-4 mb-4">
+                  <h4 class="text-white fw-bold">Lorem ipsum dolor</h4>
+                  <p class="text-white">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Tempora, dolores! Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Illum, nulla.
+                  </p>
+               </div>
+            </div>
+            <div class="mx-3">
+               <div class="text-japon border p-3 rounded-4 mt-4">
+                  <h4 class="text-white fw-bold">Lorem ipsum dolor</h4>
+                  <p class="text-white">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Tempora, dolores! Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Illum, nulla.
+                  </p>
+               </div>
+               <img
+                  src="img/japon3.png"
+                  alt="image japon 3"
+                  class="image image-3 d-flex align-items-start my-4 rounded-4 align-items-end"
+               />
+            </div>
          </section>
       </main>
       <script
