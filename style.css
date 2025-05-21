@@ -131,7 +131,7 @@ h3 p {
       width: 90%;
    }
 
-   .navbar-collapse {
-      display: none;
+   .expo {
+      flex-column
    }
 }
