@@ -112,6 +112,10 @@ h3 p {
    width: 100%;
 }
 
+.hstack {
+   background-color: #252525;
+}
+
 @media (max-width: 700px) {
    .font-h1 {
       font-size: 27px;
