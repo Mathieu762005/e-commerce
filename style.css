@@ -116,6 +116,18 @@ h3 p {
    background-color: #252525;
 }
 
+.modal-header {
+   background-color: #252525;
+}
+
+.modal-footer {
+   background-color: #252525;
+}
+
+.modal-body {
+   background-image: url(img/Champions\ League\ Football\ GIF\ by\ Sealed\ With\ A\ GIF.gif);
+}
+
 @media (max-width: 700px) {
    .font-h1 {
       font-size: 27px;
