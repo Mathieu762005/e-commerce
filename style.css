@@ -98,6 +98,14 @@ h3 p {
 .offcanvas-body-grey img {
    width: 100%;
 }
+.background-japon {
+   width: 100%;
+}
+.background-japon img {
+   background-image: url(img/bg-titre-japon.jpg);
+   background-size: cover;
+   width: 100%;
+}
 
 @media (max-width: 700px) {
    .font-h1 {
