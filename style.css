@@ -130,4 +130,11 @@ h3 p {
    .main__articles {
       width: 90%;
    }
+<<<<<<< HEAD
+=======
+
+   .expo {
+      flex-column
+   }
+>>>>>>> cf777d11ea4f8a23d29aa9b03a04fab578f251fd
 }
