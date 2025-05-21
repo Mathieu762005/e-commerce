@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
-<body class="d-flex flex-column" style="height: 100vh;">
+<body class="d-flex flex-column bg-black" style="height: 100vh">
     <nav class="navbar navbar-expand-lg bg-black flex-lg-row gap-5">
         <div class="container-fluid bg-black">
             <a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 7rem;" alt="logo"></a>
@@ -54,43 +54,75 @@
                 Dropdown button
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Coques</a></li>
-                <li><a class="dropdown-item" href="#">Verres de protection</a></li>
-                <li><a class="dropdown-item" href="#">Support de voiture</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
             </div>
         </div>
     </div>
-    <div class="bg-black text-light d-flex justify-content-center" style="height: 100vh;">
-        <div class="d-block mb-3" style="width: 55vw;">
-        <div class="display-3 mb-4 mt-3 text-center">
-            Contact
-        </div>
-            <form>
-                <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Adresse Email <b>Contactez nous !</b></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div class="article">
+        <div class="container-lg p-2 text-center">
+            <div class="row gap-5">
+                <div class=" col-lg coque1 d-flex flex-column bg-light gap-1">
+                    <div>
+                        <img style="width: 20rem; height: auto;" src="img/coque1.png" alt="coque1">
+                    </div>
+                    <div class="d-flex gap-2">
+                        <div class="img_coque1">
+                            <a href="#"><img class="img-fluid bg-body rounded-3" src="img/coque1.png" alt="coque1"></a>
+                        </div>
+                        <div class="img_coque1">
+                            <a href="#"><img  class="img-fluid bg-body rounded-3" src="img/coque1.png" alt="coque1"></a>
+                        </div>
+                        <div class="img_coque1">
+                            <a href="#"><img class="img-fluid bg-body rounded-3" src="img/coque1.png" alt="coque1"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-floating mb-4" style="width: 50%;">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                    <option selected>Votre choix</option>
-                    <option value="1">Coques</option>
-                    <option value="2">Verres de protection</option>
-                    <option value="3">Support de voiture</option>
-                </select>
-                <label for="floatingSelect">...</label>
+                <div class=" col-lg p-5 bg-dark text-light text-start">
+                    <h1 class="display-4">Coque de téléphone</h1>
+                    <hr>
+                    <p>
+                        <br><br>Marre des coques moches ? On te comprend. Cette coque stylée protège ton téléphone avec classe. Anti-choc, anti-rayure, pro-style. <br><br>
+                        Parce que votre téléphone mérite mieux qu’une chute malheureuse ✨ <br> <br>
+                    </p>
+                    <hr>
+                    <div class="input-group mb-4 mt-4" style="width: 75%;">
+                        <select class="form-select" id="inputGroupSelect02">
+                            <option value="1">Iphone</option>
+                            <option value="2">Samsung</option>
+                            <option value="3">Xiomi</option>
+                        </select>
+                    <label class="input-group-text" for="inputGroupSelect02">Marques</label>
+                    (qté)
+                    </div>
+                    <!-- Surement à lier avec le panier directement le modal n'est pas nécessaire -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Prixpanier">
+                    Ajouter au Panier
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Prixpanier" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Panier</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Votre article à bien été ajouter au panier !
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Accepter</button>
+                                    <button type="button" class="btn btn-dark">ou Accepter (it's too late)</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">J'accepte d'être recontacté</label>
-                </div>
-                    <button type="submit" class="btn btn-dark">Envoyé</button>
-            </form>
+            </div>
         </div>
     </div>
     <div class="hstack gap-1 p-5 text-bg-dark mt-auto justify-content-center" style="width: 100vw;">
