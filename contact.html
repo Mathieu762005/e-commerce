@@ -10,67 +10,81 @@
     <title>Document</title>
 </head>
 <body class="body-contact d-flex flex-column" style="height: 100vh;">
-    <nav class="navbar bg-noir navbar-expand-lg flex-lg-row gap-5">
-        <div class="container-fluid bg-noir">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 7rem;" alt="logo"></a>
-            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav gap-5 ">
-                    <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Catégories
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Coques</a></li>
-                        <li>
-                            <a class="dropdown-item" href="#">Verres de protection</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Support de voiture</a>
-                        </li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-light" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-light" data-bs-toggle="offcanvas" aria-controls="offcanvasExample" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Panier <i class="bi bi-cart-fill text-light"></i></a>
-                    </li>
-                </ul>
-                <div class="navbar__panier d-fex border py-1 px-4 rounded-5 justify-content-start" style="width: 11rem;">
-                <a class="nav-link text-light" data-bs-toggle="offcanvas" aria-controls="offcanvasExample"
-                    href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Panier <i
-                        class="bi bi-cart-fill text-light fs-4"></i><span class="fs-5">+1</span></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Panier</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-            </div>
-            <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Coques</a></li>
-                <li><a class="dropdown-item" href="#">Verres de protection</a></li>
-                <li><a class="dropdown-item" href="#">Support de voiture</a></li>
+    <nav class="navbar navbar-expand-lg fs-4">
+      <div class="container-fluid mx-auto">
+         <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 9rem" alt="logo" /></a>
+         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="border border-light navbar-toggler-icon bs-primary-white"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                     Catégories
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Coques</a></li>
+                     <li>
+                        <a class="dropdown-item" href="#">Verres de protection</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="#">Support de voiture</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-light" href="contact.html">Contact</a>
+               </li>
             </ul>
+            <div class="navbar__panier d-fex border py-1 px-4 rounded-5 justify-content-start" style="width: 11rem;">
+               <a class="nav-link text-light" data-bs-toggle="offcanvas" aria-controls="offcanvasExample"
+                  href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Panier <i
+                     class="bi bi-cart-fill text-light fs-4"></i><span class="fs-5">+1</span></a>
             </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </nav>
+   <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Votre panier
+         </h5>
+         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+      </div>
+      <hr />
+      <div class="offcanvas-body">
+         <div class="offcanvas-body-grey text-center mx-5 rounded-top-3">
+            <img src="img/MIAOU-Photoroom.png" width="100" alt="" class="logo-miaou px-5" />
+            <img src="img/coque6.png" width="300" alt="" />
+         </div>
+         <div class="offcanvas-body-grey mx-5 text-black p-3 mb-2 rounded-bottom-3">
+            <h5>Le Miaou Sauvage</h5>
+            <p class="fst-italic">$ 1.000.000 USD</p>
+            <a class="text-black" href="">Remove</a>
+         </div>
+         <hr class="mx- my-4" />
+         <div class="d-flex justify-content-between">
+            <p>Subtotal</p>
+            <span>$ 1.000.000 USD</span>
+         </div>
+         <div class="mx rounded-bottom-3 text-center mb-3">
+            <button type="button" class="btn btn-warning fw-bold px-5 rounded-0">
+               Achete ou je te DDOS
+            </button>
+         </div>
+         <div class="hack text-center">
+            <img class="p-2 rounded-5" width="350" src="img/hack-the-planet-hacker-cat.gif" alt="" />
+         </div>
+      </div>
+   </div>
     <div class="main text-light d-flex justify-content-center" style="height: 100vh;">
         <div class="contour d-block mb-5 mt-5 p-5 rounded-5" style="width: 55vw;">
         <div class="display-3 mb-4 mt-3 text-center">
@@ -99,8 +113,26 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">J'accepte d'être recontacté</label>
                 </div>
-                    <button type="submit" class="btn btn-dark">Envoyé</button>
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModalContact">Envoyé</button>
             </form>
+        <!-- Modal -->
+        <div class="modal fade modal-fullscreen" id="exampleModalContact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/homery.gif" alt="homer">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+</div>
         </div>
     </div>
     <div class="hstack gap-1 p-5 text-bg-dark mt-auto justify-content-center" style="width: 100vw;">
