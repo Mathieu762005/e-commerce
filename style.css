@@ -128,6 +128,14 @@ h3 p {
    background-image: url(img/Champions\ League\ Football\ GIF\ by\ Sealed\ With\ A\ GIF.gif);
 }
 
+.contour {
+   background-color: #252525b7;
+}
+
+.bg-noir {
+   background-color: #252525;
+}
+
 @media (max-width: 700px) {
    .font-h1 {
       font-size: 27px;
