@@ -1,5 +1,60 @@
-.article {
-  box-shadow: 20px -12px white;
+.img_lien:hover {
+  background-color: #1d1c1c;
+  transition: 300ms;
+  transform: scale(1.1);
+}
+
+.mybox {
+  box-shadow: 30px 35px #252525;
+}
+
+.contact_article {
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 0 auto;
+  text-align: center;
+  gap: 2rem;
+  padding-bottom: 3em;
+}
+
+.grid_row {
+  display: grid;
+  grid-template-columns: 1fr 20rem 20rem;
+}
+
+.accessoirs button {
+  width: 12vw;
+  height: 6vh;
+}
+
+.contact_article .bouton button {
+  width: 20vw;
+  height: 15vh;
+  font-size: xx-large;
+}
+
+@media only screen and (max-width: 414px) {
+  body .grid_row {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+  }
+  body .accessoirs {
+    width: 80vw;
+    height: auto;
+  }
+  body .accessoirs button {
+    width: 28vw;
+    height: 12vh;
+  }
+  body .contact_article .bouton button {
+    width: 34vw;
+    height: 43vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
