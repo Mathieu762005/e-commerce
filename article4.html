@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coqsy Officiel</title>
+</head>
+<body class="d-flex flex-column bg-black" style="height: 100vh">
+       <nav class="navbar navbar-expand-lg fs-4">
+      <div class="container-fluid mx-auto">
+         <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 9rem" alt="logo" /></a>
+         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="border border-light navbar-toggler-icon bs-primary-white"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                     Catégories
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Coques</a></li>
+                     <li>
+                        <a class="dropdown-item" href="#">Verres de protection</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="#">Support de voiture</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-light" href="contact.html">Contact</a>
+               </li>
+            </ul>
+            <div class="navbar__panier d-fex border py-1 px-4 rounded-5 justify-content-start" style="width: 11rem;">
+               <a class="nav-link text-light" data-bs-toggle="offcanvas" aria-controls="offcanvasExample"
+                  href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Panier <i
+                     class="bi bi-cart-fill text-light fs-4"></i><span class="fs-5">+1</span></a>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Votre panier
+         </h5>
+         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+      </div>
+      <hr />
+      <div class="offcanvas-body">
+         <div class="offcanvas-body-grey text-center mx-5 rounded-top-3">
+            <img src="img/MIAOU-Photoroom.png" width="100" alt="" class="logo-miaou px-5" />
+            <img src="img/coque6.png" width="300" alt="" />
+         </div>
+         <div class="offcanvas-body-grey mx-5 text-black p-3 mb-2 rounded-bottom-3">
+            <h5>Le Miaou Sauvage</h5>
+            <p class="fst-italic">$ 1.000.000 USD</p>
+            <a class="text-black" href="">Remove</a>
+         </div>
+         <hr class="mx- my-4" />
+         <div class="d-flex justify-content-between">
+            <p>Subtotal</p>
+            <span>$ 1.000.000 USD</span>
+         </div>
+         <div class="mx rounded-bottom-3 text-center mb-3">
+            <button type="button" class="btn btn-warning fw-bold px-5 rounded-0">
+               Achete ou je te DDOS
+            </button>
+         </div>
+         <div class="hack text-center">
+            <img class="p-2 rounded-5" width="350" src="img/hack-the-planet-hacker-cat.gif" alt="" />
+         </div>
+      </div>
+   </div>
+    <div class="article">
+        <div class="container-lg p-2 text-center">
+            <div class="row gap-5 p-4">
+                <div class=" col-lg coque1 d-flex flex-column bg-dark gap-3 p-4">
+                    <div>
+                        <img style="width: 18rem; height: auto;" class="img-fluid bg-body rounded-5" src="img/coque4.png" alt="coque1">
+                    </div>
+                    <div class="d-flex gap-2">
+                        <div class="img_coque1">
+                            <a href="#"><img class="img-fluid bg-secondary rounded-3" src="img/coque4.png" alt="coque1"></a>
+                        </div>
+                        <div class="img_coque1">
+                            <a href="#"><img  class="img-fluid bg-secondary rounded-3" src="img/coque4.png" alt="coque1"></a>
+                        </div>
+                        <div class="img_coque1">
+                            <a href="#"><img class="img-fluid bg-secondary rounded-3" src="img/coque4.png" alt="coque1"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg p-5 bg-dark text-light text-start">
+                    <h1 class="display-4">Coque de téléphone</h1>
+                    <hr>
+                    <p>
+                        <br><br>Marre des coques moches ? On te comprend. Cette coque stylée protège ton téléphone avec classe. Anti-choc, anti-rayure, pro-style. <br><br>
+                        Parce que votre téléphone mérite mieux qu’une chute malheureuse ✨ <br> <br>
+                    </p>
+                    <hr>
+                    <div class="input-group mb-4 mt-4" style="width: 75%;">
+                        <select class="form-select" id="inputGroupSelect02">
+                            <option value="1">Iphone</option>
+                            <option value="2">Samsung</option>
+                            <option value="3">Xiomi</option>
+                        </select>
+                    <label class="input-group-text" for="inputGroupSelect02">Marques</label>
+                    (qté)
+                    </div>
+                    <!-- Surement à lier avec le panier directement le modal n'est pas nécessaire -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Prixpanier">
+                    Ajouter au Panier
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Prixpanier" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Panier</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Votre article à bien été ajouter au panier !
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Accepter</button>
+                                    <button type="button" class="btn btn-dark">ou Accepter (it's too late)</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container" style="width: 100vw;">
+        <div class="grid_row">
+            <div class="col_non">
+                <div class="accessoirs d-flex flex-column gap-4">
+                    <div class="bg-dark text-white opacity-75 text-center pt-3">
+                    <h5>Les autres accessoirs</h5>
+                    </div>
+                    <div class="display-5 text-light">
+                        Coqsy Officiel
+                    </div>
+                    <div class="text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloribus, optio nisi molestiae esse,
+                        consectetur voluptatum veritatis labore commodi expedita nobis repellat obcaecati ab minus officia quasi delectus,
+                        ducimus eaque!
+                    </div>
+                    <button type="button" class=" btn btn-outline-light btn-outline-light"><b>En savoir +</b></button>
+                </div>
+            </div>
+            <div class="col_non">
+                <img class="img-fluid" src="img/ecran.webp" alt="ecran">
+            </div>
+            <div class="col_non">
+                <img  class="img-fluid" src="img/snopy.png" alt="snopy">
+            </div>
+        </div>
+    </div>
+    <div class="display-5 text-light text-center mb-5">
+        Produits similaires
+    </div>
+    <!-- C'est pas ici -->
+    <div class="mybox border border-secondary container mb-5 pt-3 pb-3">
+        <div class="row gap-3">
+            <div class="col">
+                <a href="#"><img class="img_lien img-fluid" src="img/coque3.png" alt="coque"></a>
+            </div>
+            <div class="col">
+                <a href="#"><img class="img_lien img-fluid" src="img/coque4.png" alt="coque"></a>
+            </div>
+            <div class="col">
+                <a href="#"><img class="img_lien img-fluid" src="img/coque5.png" alt="coque"></a>
+            </div>
+        </div>
+    </div>
+    <div class="contact_article">
+        <div class="display-2 text-light">
+            Créer ta propre coque personnalisée !
+        </div>
+        <div class="text-light">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </div>
+        <div class="bouton">
+            <a href="contact.html"><button type="button" class="btn btn-outline-light btn-outline-light"><b>Nous contactez !</b></button></a>
+        </div>
+    </div>
+    <div class="hstack gap-1 p-5 text-bg-dark mt-auto justify-content-center" style="width: 100vw;">
+        <div class="p-1">
+            <b>Coqsy</b>
+        </div>
+        <div class="vr"></div>
+        <div class="p-2">
+            <p>Adresse : 3 Rue Maximilien Robespierre, 76610 Le Havre <br>
+               Téléphone : 06.18.56.67.26 
+            </p>
+        </div>
+        <div class="vr"></div>
+        <div class="p-1"><a href="#" class="text-bg-dark">Mentions légales · © 2025 Coqsy</a></div>
+        <div class="vr"></div>
+        <div class="p-1">
+            <a href="#" class="text-bg-dark"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-bg-dark"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="text-bg-dark"><i class="bi bi-pinterest"></i></i></a>
+            <a href="#" class="text-bg-dark"><i class="bi bi-facebook"></i></a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
